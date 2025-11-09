@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <section class="home-section">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple Django project. Check the <a href="{% url 'about' %}">about page</a> for more information.</p>
+    </section>
+{% endblock %}
